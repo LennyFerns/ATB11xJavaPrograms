@@ -5,7 +5,7 @@ public class Task005_UserInput_max_value {
         int value1= Integer.parseInt(args[0]);
         int value2= Integer.parseInt(args[1]);
 
-        System.out.println(value1>value2 ? "value1 is MAX": "Value2 is max");
+        System.out.println(value1>value2 ? "value1 is MAX"+value1: "Value2 is max"+value2);
 
     }
 }
