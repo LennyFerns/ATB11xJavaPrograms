@@ -14,6 +14,7 @@ public class Task007_Classify_Triangle {
         System.out.println("Enter length of side 3: ");
         int side3 = scanner.nextInt();
 
+
         if (side1 == side2 && side2 == side3) {
             System.out.println("The triangle is Equilateral.");
         } else if ((side1 == side2 || side2 == side3 || side1 == side3)) {
@@ -23,6 +24,8 @@ public class Task007_Classify_Triangle {
         else {
             System.out.println("The triangle is Scalene.");
         }
+
+        scanner.close();
 
 
     }

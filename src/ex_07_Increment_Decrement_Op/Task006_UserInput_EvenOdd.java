@@ -14,6 +14,8 @@ public class Task006_UserInput_EvenOdd {
             System.out.println("the number entered is odd");
         }
 
+        sc.close();
+
 
     }
 }
