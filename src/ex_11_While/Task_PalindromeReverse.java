@@ -2,7 +2,7 @@ package ex_11_While;
 
 public class Task_PalindromeReverse {
     public static void main(String[] args) {
-        String str = "Madam";
+        String str = "Lenny";
         String rev = new StringBuilder(str).reverse().toString();
         System.out.println(str);
         System.out.println(rev);
